@@ -1,6 +1,5 @@
 {
     "main": {
-        "stream_software": "obs",
         "mister_ip": "000.000.00.000",
         "mister_username": "root",
         "mister_password": "1",

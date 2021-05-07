@@ -638,6 +638,10 @@
             "GBA Game": "Playing {game} on {core}"
         }
     },
+    "GBC": {
+        "description": "GBC Core",
+        "scene": "GBC Scene"
+    },
     "GameboyColor": {
         "description": "GameboyColor core",
         "scene": "GameboyColor Scene"
@@ -669,6 +673,14 @@
     "Odyssey2": {
         "description": "Odyssey2 Core",
         "scene": "Odyssey2 Scene"
+    },
+    "SG-1000C": {
+        "description": "SG-1000C core",
+        "scene": "SG-1000C Scene"
+    },
+    "SG-1000": {
+        "description": "SG-1000 core",
+        "scene": "SG-1000 Scene"
     },
     "SG1000": {
         "description": "SG1000 core",
@@ -724,18 +736,6 @@
     "memtest": {
         "description": "memtest core",
         "scene": "memtest Scene"
-    },
-    "GBC": {
-        "description": "GBC Core",
-        "scene": "GBC Scene"
-    },
-    "SG-1000": {
-        "description": "SG-1000 core",
-        "scene": "SG-1000 Scene"
-    },
-    "SG-1000C": {
-        "description": "SG-1000C core",
-        "scene": "SG-1000C Scene"
     },
     "NSF": {
         "description": "NSF Core",
