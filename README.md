@@ -4,7 +4,9 @@ Application to integrate MiSTer and OBS
 This app requires at least python 3+.
 
 To install the python requirements run "pip install requirements.txt" in the root of this folder.
-Ff you get an error about upgrading pip, run " -m pip install --upgrade pip"
+If you get an error about upgrading pip, run " -m pip install --upgrade pip"
+
+You can find a compiled windows version built via pyinstaller in the releases section.
 
 For OBS, you need to install obs-websocket which can be found here: https://github.com/Palakis/obs-websocket/releases.
 
