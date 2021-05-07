@@ -10,7 +10,20 @@ You can find a compiled windows version built via pyinstaller in the releases se
 
 For OBS, you need to install obs-websocket which can be found here: https://github.com/Palakis/obs-websocket/releases.
 
-Update config.json with your details:
+Update **config.json** with your details:
+
+* mister_ip - ip address of MiSTer
+* mister_username - ssh username for MiSTer
+* mister_password - ssh password for MiSTer
+* change_scenes - enable/disable scene switching
+* debug - enable/disable debug logs
+* custom_text_sources - this is the format that will be used for the source text if you don' have one in the cores.json.
+* refresh_rate - polling rate of checking the core and game.
+* core_storage - where the cores are stored fat for sd card and usbX for usb 
+* pause_scenes - if one of these scenes are manually switched to, the script will skip changing scenes and changing source text
+* host - obs host
+* port - obs port
+* password - obs password
 
 ```json
 {
@@ -20,7 +33,7 @@ Update config.json with your details:
         "mister_password": "1",
         "change_scenes":true, 
         "debug":false,
-        "custom_text_sources": { # This is the format that will be used for the source text if you don' have one in the cores.json.
+        "custom_text_sources": {
             "GameName": "Default:playing {game} on {core}"
         },
         "refresh_rate": "1",
@@ -36,33 +49,41 @@ Update config.json with your details:
     }
 }
 ```
-You can map the corename,scene name and supported filetypes in the map.json file;
-map.json schema:
+You can map the corename,scene name and supported filetypes in the cores.json file.
+
+**cores.json**
+
+* "GBA" - core name. This has to match the name of the rbf without the datestamp.The script removes the datestamp before it does the lookup.
+* "description" - description of the core. Not required but added by default on first run.
+* "scene" - this is the name of the scene in obs.
+* "custom_text_sources" -  # this is the source text that will be updated on game change. You can have multiple. You can use {core} {game} and {displayname}.If display_name is not set in the json file {displayname} will be blank.
+* "display_name" - used above. This allows you to set a better looking name for the core.
 
 ```json
 {
-    "GBA": { # core name. This has to match the name of the rbf without the datestamp.The script removes the datestamp before it does the lookup. 
-        "description": "GBA Core", # description of the core. Not required but added by default on first run.
-        "scene": "GBA Scene", # this is the name of the scene in obs.
-        "custom_text_sources": { # this is the source text that will be updated on game change. You can have multiple. YOu can use {core} {game} and {displayname}.
-                                    If display_name is not set in the json file this will be blank.
+    "GBA": {   
+        "description": "GBA Core",
+        "scene": "GBA Scene",
+        "custom_text_sources": {             
             "GBA Game": "Playing {game} on {core}"
         },
-        "display_name": "Nintendo Gameboy Advanced", # This us used with {displayname} above.
+        "display_name": "Nintendo Gameboy Advanced",
     }
 }
 ```
-splitcores.py - This is used for cores that have multiples systems ie SMS can play Game Gear and SG1000 games. You can use this to create copies of those rbf files named differently so you can have different scenes.
+**splitcores.py** - This is used for cores that have multiples systems ie SMS can play Game Gear and SG1000 games. You can use this to create copies of those rbf files named differently so you can have different scenes.
 
-splitcores.json - This is used to setup which cores you will copy.
+**splitcores.json** - This is used to setup which cores you will copy.
 
+```json
 {
     "SMS": ["GAMEGEAR","SG-1000"],
-	"ColecoVision": ["SG-1000C"],
-	"Gameboy": ["GBC"],
-	"Turbografx16": ["TGFX-CD"]
+    "ColecoVision": ["SG-1000C"],
+    "Gameboy": ["GBC"],
+    "Turbografx16": ["TGFX-CD"]
 }
+```
 
-splitcores.sh - Copy this to the scripts folder on the MiSTer to run the splitcores.py script.
+**splitcores.sh** - Copy this to the scripts folder on the MiSTer to run the splitcores.py script.
 
-update_and_copy.sh - Copy this to the scripts folder on the MiSTer to run the update_all script and then run the splitcores.py script
+**update_and_copy.sh** - Copy this to the scripts folder on the MiSTer to run the update_all script and then run the splitcores.py script
