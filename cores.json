@@ -1,0 +1,752 @@
+{
+    "menu": {
+        "description": "Mister Menu",
+        "scene": "Menu Scene"
+    },
+    "Arkanoid": {
+        "description": "Arkanoid core",
+        "scene": "Arkanoid Scene"
+    },
+    "AsteroidsDeluxe": {
+        "description": "AsteroidsDeluxe core",
+        "scene": "AsteroidsDeluxe Scene"
+    },
+    "Asteroids": {
+        "description": "Asteroids core",
+        "scene": "Asteroids Scene"
+    },
+    "Astrocade": {
+        "description": "Astrocade core",
+        "scene": "Astrocade Scene"
+    },
+    "AtariTetris": {
+        "description": "AtariTetris core",
+        "scene": "AtariTetris Scene"
+    },
+    "Bagman": {
+        "description": "Bagman core",
+        "scene": "Bagman Scene"
+    },
+    "Berzerk": {
+        "description": "Berzerk core",
+        "scene": "Berzerk Scene"
+    },
+    "BlackWidow": {
+        "description": "BlackWidow core",
+        "scene": "BlackWidow Scene"
+    },
+    "BombJack": {
+        "description": "BombJack core",
+        "scene": "BombJack Scene"
+    },
+    "Breakout": {
+        "description": "Breakout core",
+        "scene": "Breakout Scene"
+    },
+    "BurgerTime": {
+        "description": "BurgerTime core",
+        "scene": "BurgerTime Scene"
+    },
+    "BurningRubber": {
+        "description": "BurningRubber core",
+        "scene": "BurningRubber Scene"
+    },
+    "CanyonBomber": {
+        "description": "CanyonBomber core",
+        "scene": "CanyonBomber Scene"
+    },
+    "Cave": {
+        "description": "Cave core",
+        "scene": "Cave Scene"
+    },
+    "Centipede": {
+        "description": "Centipede core",
+        "scene": "Centipede Scene"
+    },
+    "ComputerSpace": {
+        "description": "ComputerSpace core",
+        "scene": "ComputerSpace Scene"
+    },
+    "CosmicAvenger": {
+        "description": "CosmicAvenger core",
+        "scene": "CosmicAvenger Scene"
+    },
+    "CrazyBalloon": {
+        "description": "CrazyBalloon core",
+        "scene": "CrazyBalloon Scene"
+    },
+    "CrazyClimber": {
+        "description": "CrazyClimber core",
+        "scene": "CrazyClimber Scene"
+    },
+    "CrazyKong": {
+        "description": "CrazyKong core",
+        "scene": "CrazyKong Scene"
+    },
+    "Defender": {
+        "description": "Defender core",
+        "scene": "Defender Scene"
+    },
+    "DigDug": {
+        "description": "DigDug core",
+        "scene": "DigDug Scene"
+    },
+    "Dominos": {
+        "description": "Dominos core",
+        "scene": "Dominos Scene"
+    },
+    "DonkeyKong3": {
+        "description": "DonkeyKong3 core",
+        "scene": "DonkeyKong3 Scene"
+    },
+    "DonkeyKongJunior": {
+        "description": "DonkeyKongJunior core",
+        "scene": "DonkeyKongJunior Scene"
+    },
+    "DonkeyKong": {
+        "description": "DonkeyKong core",
+        "scene": "DonkeyKong Scene"
+    },
+    "Dorodon": {
+        "description": "Dorodon core",
+        "scene": "Dorodon Scene"
+    },
+    "Druaga": {
+        "description": "Druaga core",
+        "scene": "Druaga Scene"
+    },
+    "FoodFight": {
+        "description": "FoodFight core",
+        "scene": "FoodFight Scene"
+    },
+    "Frenzy": {
+        "description": "Frenzy core",
+        "scene": "Frenzy Scene"
+    },
+    "Galaga": {
+        "description": "Galaga core",
+        "scene": "Galaga Scene"
+    },
+    "Galaxian": {
+        "description": "Galaxian core",
+        "scene": "Galaxian Scene"
+    },
+    "Gaplus": {
+        "description": "Gaplus core",
+        "scene": "Gaplus Scene"
+    },
+    "Gauntlet": {
+        "description": "Gauntlet core",
+        "scene": "Gauntlet Scene"
+    },
+    "GnG": {
+        "description": "GnG core",
+        "scene": "GnG Scene"
+    },
+    "Gyruss": {
+        "description": "Gyruss core",
+        "scene": "Gyruss Scene"
+    },
+    "IremM62": {
+        "description": "IremM62 core",
+        "scene": "IremM62 Scene"
+    },
+    "LadyBug": {
+        "description": "LadyBug core",
+        "scene": "LadyBug Scene"
+    },
+    "LunarLander": {
+        "description": "LunarLander core",
+        "scene": "LunarLander Scene"
+    },
+    "MCR1": {
+        "description": "MCR1 core",
+        "scene": "MCR1 Scene"
+    },
+    "MCR2": {
+        "description": "MCR2 core",
+        "scene": "MCR2 Scene"
+    },
+    "MCR3Mono": {
+        "description": "MCR3Mono core",
+        "scene": "MCR3Mono Scene"
+    },
+    "MCR3Scroll": {
+        "description": "MCR3Scroll core",
+        "scene": "MCR3Scroll Scene"
+    },
+    "MCR3": {
+        "description": "MCR3 core",
+        "scene": "MCR3 Scene"
+    },
+    "MarioBros": {
+        "description": "MarioBros core",
+        "scene": "MarioBros Scene"
+    },
+    "MoonPatrol": {
+        "description": "MoonPatrol core",
+        "scene": "MoonPatrol Scene"
+    },
+    "MrDo": {
+        "description": "MrDo core",
+        "scene": "MrDo Scene"
+    },
+    "NinjaKun": {
+        "description": "NinjaKun core",
+        "scene": "NinjaKun Scene"
+    },
+    "Pacman": {
+        "description": "Pacman core",
+        "scene": "Pacman Scene"
+    },
+    "Pengo": {
+        "description": "Pengo core",
+        "scene": "Pengo Scene"
+    },
+    "PenguinKunWars": {
+        "description": "PenguinKunWars core",
+        "scene": "PenguinKunWars Scene"
+    },
+    "Phoenix": {
+        "description": "Phoenix core",
+        "scene": "Phoenix Scene"
+    },
+    "Pleiads": {
+        "description": "Pleiads core",
+        "scene": "Pleiads Scene"
+    },
+    "PolyPlay": {
+        "description": "PolyPlay core",
+        "scene": "PolyPlay Scene"
+    },
+    "Pong": {
+        "description": "Pong core",
+        "scene": "Pong Scene"
+    },
+    "Pooyan": {
+        "description": "Pooyan core",
+        "scene": "Pooyan Scene"
+    },
+    "Popeye": {
+        "description": "Popeye core",
+        "scene": "Popeye Scene"
+    },
+    "QBert": {
+        "description": "QBert core",
+        "scene": "QBert Scene"
+    },
+    "RallyX": {
+        "description": "RallyX core",
+        "scene": "RallyX Scene"
+    },
+    "RiverPatrol": {
+        "description": "RiverPatrol core",
+        "scene": "RiverPatrol Scene"
+    },
+    "Robotron": {
+        "description": "Robotron core",
+        "scene": "Robotron Scene"
+    },
+    "RshnAtk": {
+        "description": "RshnAtk core",
+        "scene": "RshnAtk Scene"
+    },
+    "SEGASYS1": {
+        "description": "SEGASYS1 core",
+        "scene": "SEGASYS1 Scene"
+    },
+    "Scramble": {
+        "description": "Scramble core",
+        "scene": "Scramble Scene"
+    },
+    "SilverLand": {
+        "description": "SilverLand core",
+        "scene": "SilverLand Scene"
+    },
+    "SnapJack": {
+        "description": "SnapJack core",
+        "scene": "SnapJack Scene"
+    },
+    "SolomonsKey": {
+        "description": "SolomonsKey core",
+        "scene": "SolomonsKey Scene"
+    },
+    "SpaceInvaders": {
+        "description": "SpaceInvaders core",
+        "scene": "SpaceInvaders Scene"
+    },
+    "SpaceRace": {
+        "description": "SpaceRace core",
+        "scene": "SpaceRace Scene"
+    },
+    "Sprint1": {
+        "description": "Sprint1 core",
+        "scene": "Sprint1 Scene"
+    },
+    "Sprint2": {
+        "description": "Sprint2 core",
+        "scene": "Sprint2 Scene"
+    },
+    "SuperBreakout": {
+        "description": "SuperBreakout core",
+        "scene": "SuperBreakout Scene"
+    },
+    "TIAMC1": {
+        "description": "TIAMC1 core",
+        "scene": "TIAMC1 Scene"
+    },
+    "Tecmo": {
+        "description": "Tecmo core",
+        "scene": "Tecmo Scene"
+    },
+    "TimePilot84": {
+        "description": "TimePilot84 core",
+        "scene": "TimePilot84 Scene"
+    },
+    "TimePilot": {
+        "description": "TimePilot core",
+        "scene": "TimePilot Scene"
+    },
+    "TraverseUSA": {
+        "description": "TraverseUSA core",
+        "scene": "TraverseUSA Scene"
+    },
+    "Ultratank": {
+        "description": "Ultratank core",
+        "scene": "Ultratank Scene"
+    },
+    "Xevious": {
+        "description": "Xevious core",
+        "scene": "Xevious Scene"
+    },
+    "Zaxxon": {
+        "description": "Zaxxon core",
+        "scene": "Zaxxon Scene"
+    },
+    "ZigZag": {
+        "description": "ZigZag core",
+        "scene": "ZigZag Scene"
+    },
+    "jt1942": {
+        "description": "jt1942 core",
+        "scene": "jt1942 Scene"
+    },
+    "jt1943": {
+        "description": "jt1943 core",
+        "scene": "jt1943 Scene"
+    },
+    "jtbiocom": {
+        "description": "jtbiocom core",
+        "scene": "jtbiocom Scene"
+    },
+    "jtbtiger": {
+        "description": "jtbtiger core",
+        "scene": "jtbtiger Scene"
+    },
+    "jtbubl": {
+        "description": "jtbubl core",
+        "scene": "jtbubl Scene"
+    },
+    "jtcommando": {
+        "description": "jtcommando core",
+        "scene": "jtcommando Scene"
+    },
+    "jtcomsc": {
+        "description": "jtcomsc core",
+        "scene": "jtcomsc Scene"
+    },
+    "jtcontra": {
+        "description": "jtcontra core",
+        "scene": "jtcontra Scene"
+    },
+    "jtcps15": {
+        "description": "jtcps15 core",
+        "scene": "jtcps15 Scene"
+    },
+    "jtcps1": {
+        "description": "jtcps1 core",
+        "scene": "jtcps1 Scene"
+    },
+    "jtdd2": {
+        "description": "jtdd2 core",
+        "scene": "jtdd2 Scene"
+    },
+    "jtdd": {
+        "description": "jtdd core",
+        "scene": "jtdd Scene"
+    },
+    "jtf1dream": {
+        "description": "jtf1dream core",
+        "scene": "jtf1dream Scene"
+    },
+    "jtgng": {
+        "description": "jtgng core",
+        "scene": "jtgng Scene"
+    },
+    "jtgunsmoke": {
+        "description": "jtgunsmoke core",
+        "scene": "jtgunsmoke Scene"
+    },
+    "jthige": {
+        "description": "jthige core",
+        "scene": "jthige Scene"
+    },
+    "jtrumble": {
+        "description": "jtrumble core",
+        "scene": "jtrumble Scene"
+    },
+    "jtsarms": {
+        "description": "jtsarms core",
+        "scene": "jtsarms Scene"
+    },
+    "jtsectionz": {
+        "description": "jtsectionz core",
+        "scene": "jtsectionz Scene"
+    },
+    "jtsf": {
+        "description": "jtsf core",
+        "scene": "jtsf Scene"
+    },
+    "jttora": {
+        "description": "jttora core",
+        "scene": "jttora Scene"
+    },
+    "jttrojan": {
+        "description": "jttrojan core",
+        "scene": "jttrojan Scene"
+    },
+    "jtvulgus": {
+        "description": "jtvulgus core",
+        "scene": "jtvulgus Scene"
+    },
+    "AcornAtom": {
+        "description": "AcornAtom core",
+        "scene": "AcornAtom Scene"
+    },
+    "AliceMC10": {
+        "description": "AliceMC10 core",
+        "scene": "AliceMC10 Scene"
+    },
+    "Altair8800": {
+        "description": "Altair8800 core",
+        "scene": "Altair8800 Scene"
+    },
+    "Amstrad-PCW": {
+        "description": "Amstrad-PCW core",
+        "scene": "Amstrad-PCW Scene"
+    },
+    "Amstrad": {
+        "description": "Amstrad core",
+        "scene": "Amstrad Scene"
+    },
+    "Apogee": {
+        "description": "Apogee core",
+        "scene": "Apogee Scene"
+    },
+    "Apple-II": {
+        "description": "Apple-II core",
+        "scene": "Apple-II Scene"
+    },
+    "Apple-I": {
+        "description": "Apple-I core",
+        "scene": "Apple-I Scene"
+    },
+    "Aquarius": {
+        "description": "Aquarius core",
+        "scene": "Aquarius Scene"
+    },
+    "Archie": {
+        "description": "Archie core",
+        "scene": "Archie Scene"
+    },
+    "Atari800": {
+        "description": "Atari800 core",
+        "scene": "Atari800 Scene"
+    },
+    "AtariST": {
+        "description": "AtariST core",
+        "scene": "AtariST Scene"
+    },
+    "BBCMicro": {
+        "description": "BBCMicro core",
+        "scene": "BBCMicro Scene"
+    },
+    "BK0011M": {
+        "description": "BK0011M core",
+        "scene": "BK0011M Scene"
+    },
+    "C16": {
+        "description": "C16 core",
+        "scene": "C16 Scene"
+    },
+    "C64": {
+        "description": "C64 core",
+        "scene": "C64 Scene"
+    },
+    "CoCo2": {
+        "description": "CoCo2 core",
+        "scene": "CoCo2 Scene"
+    },
+    "EDSAC": {
+        "description": "EDSAC core",
+        "scene": "EDSAC Scene"
+    },
+    "Galaksija": {
+        "description": "Galaksija core",
+        "scene": "Galaksija Scene"
+    },
+    "Jupiter": {
+        "description": "Jupiter core",
+        "scene": "Jupiter Scene"
+    },
+    "Laser310": {
+        "description": "Laser310 core",
+        "scene": "Laser310 Scene"
+    },
+    "MSX": {
+        "description": "MSX core",
+        "scene": "MSX Scene"
+    },
+    "MacPlus": {
+        "description": "MacPlus core",
+        "scene": "MacPlus Scene"
+    },
+    "Minimig": {
+        "description": "Minimig core",
+        "scene": "Minimig Scene"
+    },
+    "MultiComp": {
+        "description": "MultiComp core",
+        "scene": "MultiComp Scene"
+    },
+    "ORAO": {
+        "description": "ORAO core",
+        "scene": "ORAO Scene"
+    },
+    "Oric": {
+        "description": "Oric core",
+        "scene": "Oric Scene"
+    },
+    "PDP1": {
+        "description": "PDP1 core",
+        "scene": "PDP1 Scene"
+    },
+    "PET2001": {
+        "description": "PET2001 core",
+        "scene": "PET2001 Scene"
+    },
+    "QL": {
+        "description": "QL core",
+        "scene": "QL Scene"
+    },
+    "SAMCoupe": {
+        "description": "SAMCoupe core",
+        "scene": "SAMCoupe Scene"
+    },
+    "SharpMZ": {
+        "description": "SharpMZ core",
+        "scene": "SharpMZ Scene"
+    },
+    "Specialist": {
+        "description": "Specialist core",
+        "scene": "Specialist Scene"
+    },
+    "TRS-80": {
+        "description": "TRS-80 core",
+        "scene": "TRS-80 Scene"
+    },
+    "TSConf": {
+        "description": "TSConf core",
+        "scene": "TSConf Scene"
+    },
+    "Ti994a": {
+        "description": "Ti994a core",
+        "scene": "Ti994a Scene"
+    },
+    "VIC20": {
+        "description": "VIC20 core",
+        "scene": "VIC20 Scene"
+    },
+    "Vector-06C": {
+        "description": "Vector-06C core",
+        "scene": "Vector-06C Scene"
+    },
+    "X68000": {
+        "description": "X68000 core",
+        "scene": "X68000 Scene"
+    },
+    "ZX-Spectrum": {
+        "description": "ZX-Spectrum core",
+        "scene": "ZX-Spectrum Scene"
+    },
+    "ZX81": {
+        "description": "ZX81 core",
+        "scene": "ZX81 Scene"
+    },
+    "ZXNext": {
+        "description": "ZXNext core",
+        "scene": "ZXNext Scene"
+    },
+    "ao486": {
+        "description": "ao486 core",
+        "scene": "ao486 Scene"
+    },
+    "ht1080z": {
+        "description": "ht1080z core",
+        "scene": "ht1080z Scene"
+    },
+    "zx48": {
+        "description": "zx48 core",
+        "scene": "zx48 Scene"
+    },
+    "AY-3-8500": {
+        "description": "AY-3-8500 Core",
+        "scene": "AY-3-8500 Scene"
+    },
+    "Atari2600": {
+        "description": "Atari2600 Core",
+        "scene": "Atari2600 Scene"
+    },
+    "Atari5200": {
+        "description": "Atari5200 Core",
+        "scene": "Atari5200 Scene"
+    },
+    "Atari7800": {
+        "description": "Atari7800 Core",
+        "scene": "Atari7800 Scene"
+    },
+    "AtariLynx": {
+        "description": "AtariLynx Core",
+        "scene": "AtariLynx Scene"
+    },
+    "Chip8": {
+        "description": "Chip8 Core",
+        "scene": "Chip8 Scene"
+    },
+    "ColecoVision": {
+        "description": "ColecoVision Core",
+        "scene": "ColecoVision Scene"
+    },
+    "GAMEGEAR": {
+        "description": "GAMEGEAR Core",
+        "scene": "GAMEGEAR Scene"
+    },
+    "GBA": {
+        "description": "GBA Core",
+        "scene": "GBA Scene",
+        "custom_text_sources": {
+            "GBA Game": "Playing {game} on {core}"
+        }
+    },
+    "GameboyColor": {
+        "description": "GameboyColor core",
+        "scene": "GameboyColor Scene"
+    },
+    "Gameboy": {
+        "description": "GAMEBOY Core",
+        "scene": "GAMEBOY Scene"
+    },
+    "Genesis": {
+        "description": "Genesis Core",
+        "scene": "GENESIS Scene"
+    },
+    "MegaCD": {
+        "description": "MegaCD Core",
+        "scene": "GENESIS Scene"
+    },
+    "NES": {
+        "description": "NES Core",
+        "scene": "NES Scene",
+        "display_name": "Nintendo Entertainment System",
+        "custom_text_sources": {
+            "NES Game": "Playing {game} on {displayname}"
+        }
+    },
+    "NeoGeo": {
+        "description": "NEOGEO Core",
+        "scene": "NEOGEO Scene"
+    },
+    "Odyssey2": {
+        "description": "Odyssey2 Core",
+        "scene": "Odyssey2 Scene"
+    },
+    "SG1000": {
+        "description": "SG1000 core",
+        "scene": "SG1000 Scene"
+    },
+    "SMS": {
+        "description": "SMS Core",
+        "scene": "SMS Scene"
+    },
+    "SNES": {
+        "description": "SNES Core",
+        "scene": "SNES Scene",
+        "custom_text_sources": {
+            "SNES Game": "Playing {game} on {core}"
+        }
+    },
+    "TurboGrafx16": {
+        "description": "TurboGrafx16 Core",
+        "scene": "TurboGrafx16 Scene"
+    },
+    "Vectrex": {
+        "description": "Vectrex Core",
+        "scene": "Vectrex Scene"
+    },
+    "Arduboy": {
+        "description": "Arduboy core",
+        "scene": "Arduboy Scene"
+    },
+    "Chess": {
+        "description": "Chess core",
+        "scene": "Chess Scene"
+    },
+    "EpochGalaxyII": {
+        "description": "EpochGalaxyII core",
+        "scene": "EpochGalaxyII Scene"
+    },
+    "FlappyBird": {
+        "description": "FlappyBird core",
+        "scene": "FlappyBird Scene"
+    },
+    "GameOfLife": {
+        "description": "GameOfLife core",
+        "scene": "GameOfLife Scene"
+    },
+    "TomyScramble": {
+        "description": "TomyScramble core",
+        "scene": "TomyScramble Scene"
+    },
+    "ADCTest": {
+        "description": "ADCTest core",
+        "scene": "ADCTest Scene"
+    },
+    "memtest": {
+        "description": "memtest core",
+        "scene": "memtest Scene"
+    },
+    "GBC": {
+        "description": "GBC Core",
+        "scene": "GBC Scene"
+    },
+    "SG-1000": {
+        "description": "SG-1000 core",
+        "scene": "SG-1000 Scene"
+    },
+    "SG-1000C": {
+        "description": "SG-1000C core",
+        "scene": "SG-1000C Scene"
+    },
+    "NSF": {
+        "description": "NSF Core",
+        "scene": "NES Scene"
+    },
+    "SPC": {
+        "description": "SNES SPC Core",
+        "scene": "SNES Scene"
+    },
+    "TGFX-CD": {
+        "description": "TGFX-CD Core",
+        "scene": "TGFX-CD Scene"
+    }
+}

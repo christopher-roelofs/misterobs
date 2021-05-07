@@ -1,0 +1,6 @@
+{
+    "SMS": ["GAMEGEAR","SG-1000"],
+	"ColecoVision": ["SG-1000C"],
+	"Gameboy": ["GBC"],
+	"Turbografx16": ["TGFX-CD"]
+}
