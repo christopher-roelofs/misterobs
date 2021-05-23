@@ -71,6 +71,10 @@ You can map the corename,scene name and supported filetypes in the cores.json fi
     }
 }
 ```
+
+
+**The following files are independent of the main program and need to be copied to the scripts folder on the MiSTer and run manually.**
+
 **splitcores.py** - This is used for cores that have multiples systems ie SMS can play Game Gear and SG1000 games. You can use this to create copies of those rbf files named differently so you can have different scenes.
 
 **splitcores.json** - This is used to setup which cores you will copy.
