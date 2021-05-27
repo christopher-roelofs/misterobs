@@ -57,11 +57,14 @@ while True:
                 pause_enabled = True
 
             if pause_enabled and obs.get_current_scene() in SETTINGS["main"]["pause_scenes"]:
-                logger.debug("Pause scene active, not changing source text.")
+                for source in SETTINGS["main"]["custom_text_sources"]:
+                    obs.setSourceText(source, replace_text(
+                        core, game, displayname, sources[source]))
             else:
                 for source in sources:
                     obs.setSourceText(source, replace_text(
                         core, game, displayname, sources[source]))
+                        
         if core != last_core:
             if SETTINGS["main"]['change_scenes']:
                 current_scene = obs.get_current_scene()
@@ -70,7 +73,8 @@ while True:
                     pause_enabled = True
 
                 if pause_enabled and current_scene in SETTINGS["main"]["pause_scenes"]:
-                    logger.debug("Pause scene active, not changing scene.")
+                    for source in SETTINGS["main"]["custom_text_sources"]:
+                        obs.setSourceText(source,"")
                 else:
                     for source in sources:
                         obs.setSourceText(source, "")

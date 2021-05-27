@@ -9,7 +9,6 @@ def create_config():
     config = {}
 
     main = {}
-    main["stream_software"] = "obs"
     main["mister_ip"] = "000.000.00.000"
     main["mister_username"] = "root"
     main["mister_password"] = "1"

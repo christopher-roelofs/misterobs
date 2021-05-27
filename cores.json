@@ -391,6 +391,10 @@
         "description": "jthige core",
         "scene": "jthige Scene"
     },
+    "jtlabrun": {
+        "description": "jtlabrun core",
+        "scene": "jtlabrun Scene"
+    },
     "jtrumble": {
         "description": "jtrumble core",
         "scene": "jtrumble Scene"
@@ -550,6 +554,10 @@
     "Specialist": {
         "description": "Specialist core",
         "scene": "Specialist Scene"
+    },
+    "Svi328": {
+        "description": "Svi328 core",
+        "scene": "Svi328 Scene"
     },
     "TRS-80": {
         "description": "TRS-80 core",
