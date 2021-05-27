@@ -20,7 +20,7 @@ Update **config.json** with your details:
 * custom_text_sources - this is the format that will be used for the source text if you don' have one in the cores.json.
 * refresh_rate - polling rate of checking the core and game.
 * core_storage - where the cores are stored fat for sd card and usbX for usb 
-* pause_scenes - if one of these scenes are manually switched to, the script will skip changing scenes and changing source text
+* pause_scenes - if one of these scenes are manually switched to, the script will skip changing scenes. Source text will still be updated for any scenes in the default conifg.
 * host - obs host
 * port - obs port
 * password - obs password
