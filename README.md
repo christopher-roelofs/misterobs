@@ -10,6 +10,8 @@ You can find a compiled windows version built via pyinstaller in the releases se
 
 For OBS, you need to install obs-websocket which can be found here: https://github.com/Palakis/obs-websocket/releases.
 
+**You must enable the recents setting in your .ini file on the MiSTer** : recents=1              ; set to 1 to show recently played games
+
 Update **config.json** with your details:
 
 * mister_ip - ip address of MiSTer
