@@ -14,7 +14,7 @@ def get_running_core():
         for line in stdout:
             if '.rbf' in line:
                 #logger.info(line.strip())
-                core_name = line.split(' ')[8].split('/')[-1].replace('.rbf','').strip()
+                core_name = line.split('/')[-1].replace('.rbf','').strip()
                 if "_" in core_name:
                     base_name = core_name.split('_')[0]
                     current_core = base_name

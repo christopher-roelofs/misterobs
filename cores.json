@@ -71,6 +71,10 @@
         "description": "CosmicAvenger core",
         "scene": "CosmicAvenger Scene"
     },
+    "Cosmic": {
+        "description": "Cosmic core",
+        "scene": "Cosmic Scene"
+    },
     "CrazyBalloon": {
         "description": "CrazyBalloon core",
         "scene": "CrazyBalloon Scene"
@@ -111,6 +115,10 @@
         "description": "Dorodon core",
         "scene": "Dorodon Scene"
     },
+    "DottoriKun": {
+        "description": "DottoriKun core",
+        "scene": "DottoriKun Scene"
+    },
     "Druaga": {
         "description": "Druaga core",
         "scene": "Druaga Scene"
@@ -150,6 +158,14 @@
     "IremM62": {
         "description": "IremM62 core",
         "scene": "IremM62 Scene"
+    },
+    "IronHorse": {
+        "description": "IronHorse core",
+        "scene": "IronHorse Scene"
+    },
+    "Jackal": {
+        "description": "Jackal core",
+        "scene": "Jackal Scene"
     },
     "LadyBug": {
         "description": "LadyBug core",
@@ -315,6 +331,10 @@
         "description": "Ultratank core",
         "scene": "Ultratank Scene"
     },
+    "VBall": {
+        "description": "VBall core",
+        "scene": "VBall Scene"
+    },
     "Xevious": {
         "description": "Xevious core",
         "scene": "Xevious Scene"
@@ -367,6 +387,10 @@
         "description": "jtcps1 core",
         "scene": "jtcps1 Scene"
     },
+    "jtcps2": {
+        "description": "jtcps2 core",
+        "scene": "jtcps2 Scene"
+    },
     "jtdd2": {
         "description": "jtdd2 core",
         "scene": "jtdd2 Scene"
@@ -374,6 +398,10 @@
     "jtdd": {
         "description": "jtdd core",
         "scene": "jtdd Scene"
+    },
+    "jtexed": {
+        "description": "jtexed core",
+        "scene": "jtexed Scene"
     },
     "jtf1dream": {
         "description": "jtf1dream core",
@@ -398,6 +426,22 @@
     "jtrumble": {
         "description": "jtrumble core",
         "scene": "jtrumble Scene"
+    },
+    "jts16": {
+        "description": "jts16 core",
+        "scene": "jts16 Scene"
+    },
+    "jts16a2": {
+        "description": "jts16a2 core",
+        "scene": "jts16a2 Scene"
+    },
+    "jts16b1": {
+        "description": "jts16b1 core",
+        "scene": "jts16b1 Scene"
+    },
+    "jts16b": {
+        "description": "jts16b core",
+        "scene": "jts16b Scene"
     },
     "jtsarms": {
         "description": "jtsarms core",
@@ -499,6 +543,10 @@
         "description": "Galaksija core",
         "scene": "Galaksija Scene"
     },
+    "Interact": {
+        "description": "Interact core",
+        "scene": "Interact Scene"
+    },
     "Jupiter": {
         "description": "Jupiter core",
         "scene": "Jupiter Scene"
@@ -543,6 +591,10 @@
         "description": "QL core",
         "scene": "QL Scene"
     },
+    "RX78": {
+        "description": "RX78 core",
+        "scene": "RX78 Scene"
+    },
     "SAMCoupe": {
         "description": "SAMCoupe core",
         "scene": "SAMCoupe Scene"
@@ -570,6 +622,10 @@
     "Ti994a": {
         "description": "Ti994a core",
         "scene": "Ti994a Scene"
+    },
+    "UK101": {
+        "description": "UK101 core",
+        "scene": "UK101 Scene"
     },
     "VIC20": {
         "description": "VIC20 core",
@@ -662,6 +718,10 @@
         "description": "Genesis Core",
         "scene": "GENESIS Scene"
     },
+    "Intellivision": {
+        "description": "Intellivision core",
+        "scene": "Intellivision Scene"
+    },
     "MegaCD": {
         "description": "MegaCD Core",
         "scene": "GENESIS Scene"
@@ -713,6 +773,10 @@
         "description": "Vectrex Core",
         "scene": "Vectrex Scene"
     },
+    "WonderSwan": {
+        "description": "WonderSwan core",
+        "scene": "WonderSwan Scene"
+    },
     "Arduboy": {
         "description": "Arduboy core",
         "scene": "Arduboy Scene"
@@ -740,6 +804,10 @@
     "ADCTest": {
         "description": "ADCTest core",
         "scene": "ADCTest Scene"
+    },
+    "InputTest": {
+        "description": "InputTest core",
+        "scene": "InputTest Scene"
     },
     "memtest": {
         "description": "memtest core",
