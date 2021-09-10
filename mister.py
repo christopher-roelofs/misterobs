@@ -13,7 +13,9 @@ def get_running_core():
         current_core = 'menu'
         for line in stdout:
             if '.rbf' in line:
-                #logger.info(line.strip())
+                for part in line.split(" "):
+                    if ".rbf" in part:
+                        line = part
                 core_name = line.split('/')[-1].replace('.rbf','').strip()
                 if "_" in core_name:
                     base_name = core_name.split('_')[0]
