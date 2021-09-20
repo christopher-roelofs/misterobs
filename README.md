@@ -14,7 +14,7 @@ For OBS, you need to install obs-websocket which can be found here: https://gith
 
 Update **config.json** with your details:
 
-* mister_ip - ip address of MiSTer
+* mister_ip - ip address or hostname of MiSTer
 * mister_username - ssh username for MiSTer
 * mister_password - ssh password for MiSTer
 * change_scenes - enable/disable scene switching
@@ -30,7 +30,7 @@ Update **config.json** with your details:
 ```json
 {
     "main": {
-        "mister_ip": "000.000.00.000",
+        "mister_ip": "MiSTer",
         "mister_username": "root",
         "mister_password": "1",
         "change_scenes":true, 
