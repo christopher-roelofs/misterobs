@@ -1,3 +1,4 @@
+import pathlib
 import logger
 import config
 import cores
@@ -47,7 +48,7 @@ def get_last_game(core):
                         if "cores_recent.cfg" not in line:
                             recent = ssh.send_command('strings {}'.format(line.strip()))
                             if len(recent) > 0:
-                                return os.path.splitext(recent[2].strip().split('/')[-1])[0]
+                                return pathlib.Path(recent[1].strip()).stem
         return last_game
 
     except Exception as e:

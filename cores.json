@@ -123,6 +123,10 @@
         "description": "Druaga core",
         "scene": "Druaga Scene"
     },
+    "Finalizer": {
+        "description": "Finalizer core",
+        "scene": "Finalizer Scene"
+    },
     "FoodFight": {
         "description": "FoodFight core",
         "scene": "FoodFight Scene"
@@ -130,6 +134,10 @@
     "Frenzy": {
         "description": "Frenzy core",
         "scene": "Frenzy Scene"
+    },
+    "GAMEGEAR": {
+        "description": "GAMEGEAR Core",
+        "scene": "GAMEGEAR Scene"
     },
     "Galaga": {
         "description": "Galaga core",
@@ -166,6 +174,10 @@
     "Jackal": {
         "description": "Jackal core",
         "scene": "Jackal Scene"
+    },
+    "Jailbreak": {
+        "description": "Jailbreak core",
+        "scene": "Jailbreak Scene"
     },
     "LadyBug": {
         "description": "LadyBug core",
@@ -270,6 +282,18 @@
     "SEGASYS1": {
         "description": "SEGASYS1 core",
         "scene": "SEGASYS1 Scene"
+    },
+    "SG-1000": {
+        "description": "SG-1000 core",
+        "scene": "SG-1000 Scene"
+    },
+    "SMS": {
+        "description": "SMS Core",
+        "scene": "SMS Scene"
+    },
+    "ScooterShooter": {
+        "description": "ScooterShooter core",
+        "scene": "ScooterShooter Scene"
     },
     "Scramble": {
         "description": "Scramble core",
@@ -407,6 +431,10 @@
         "description": "jtf1dream core",
         "scene": "jtf1dream Scene"
     },
+    "jtflane": {
+        "description": "jtflane core",
+        "scene": "jtflane Scene"
+    },
     "jtgng": {
         "description": "jtgng core",
         "scene": "jtgng Scene"
@@ -419,9 +447,21 @@
         "description": "jthige core",
         "scene": "jthige Scene"
     },
+    "jtkicker": {
+        "description": "jtkicker core",
+        "scene": "jtkicker Scene"
+    },
     "jtlabrun": {
         "description": "jtlabrun core",
         "scene": "jtlabrun Scene"
+    },
+    "jtmx5k": {
+        "description": "jtmx5k core",
+        "scene": "jtmx5k Scene"
+    },
+    "jtninja": {
+        "description": "jtninja core",
+        "scene": "jtninja Scene"
     },
     "jtrumble": {
         "description": "jtrumble core",
@@ -438,6 +478,14 @@
     "jts16b1": {
         "description": "jts16b1 core",
         "scene": "jts16b1 Scene"
+    },
+    "jts16b2": {
+        "description": "jts16b2 core",
+        "scene": "jts16b2 Scene"
+    },
+    "jts16b3": {
+        "description": "jts16b3 core",
+        "scene": "jts16b3 Scene"
     },
     "jts16b": {
         "description": "jts16b core",
@@ -575,6 +623,10 @@
         "description": "ORAO core",
         "scene": "ORAO Scene"
     },
+    "Ondra": {
+        "description": "Ondra core",
+        "scene": "Ondra Scene"
+    },
     "Oric": {
         "description": "Oric core",
         "scene": "Oric Scene"
@@ -586,6 +638,10 @@
     "PET2001": {
         "description": "PET2001 core",
         "scene": "PET2001 Scene"
+    },
+    "PMD85": {
+        "description": "PMD85 core",
+        "scene": "PMD85 Scene"
     },
     "QL": {
         "description": "QL core",
@@ -602,6 +658,10 @@
     "SharpMZ": {
         "description": "SharpMZ core",
         "scene": "SharpMZ Scene"
+    },
+    "SordM5": {
+        "description": "SordM5 core",
+        "scene": "SordM5 Scene"
     },
     "Specialist": {
         "description": "Specialist core",
@@ -667,6 +727,10 @@
         "description": "AY-3-8500 Core",
         "scene": "AY-3-8500 Scene"
     },
+    "Arcadia": {
+        "description": "Arcadia core",
+        "scene": "Arcadia Scene"
+    },
     "Atari2600": {
         "description": "Atari2600 Core",
         "scene": "Atari2600 Scene"
@@ -683,17 +747,17 @@
         "description": "AtariLynx Core",
         "scene": "AtariLynx Scene"
     },
-    "Chip8": {
-        "description": "Chip8 Core",
-        "scene": "Chip8 Scene"
+    "ChannelF": {
+        "description": "ChannelF core",
+        "scene": "ChannelF Scene"
     },
     "ColecoVision": {
         "description": "ColecoVision Core",
         "scene": "ColecoVision Scene"
     },
-    "GAMEGEAR": {
-        "description": "GAMEGEAR Core",
-        "scene": "GAMEGEAR Scene"
+    "GBA2P": {
+        "description": "GBA2P core",
+        "scene": "GBA2P Scene"
     },
     "GBA": {
         "description": "GBA Core",
@@ -706,9 +770,9 @@
         "description": "GBC Core",
         "scene": "GBC Scene"
     },
-    "GameboyColor": {
-        "description": "GameboyColor core",
-        "scene": "GameboyColor Scene"
+    "Gameboy2P": {
+        "description": "Gameboy2P core",
+        "scene": "Gameboy2P Scene"
     },
     "Gameboy": {
         "description": "GAMEBOY Core",
@@ -746,18 +810,6 @@
         "description": "SG-1000C core",
         "scene": "SG-1000C Scene"
     },
-    "SG-1000": {
-        "description": "SG-1000 core",
-        "scene": "SG-1000 Scene"
-    },
-    "SG1000": {
-        "description": "SG1000 core",
-        "scene": "SG1000 Scene"
-    },
-    "SMS": {
-        "description": "SMS Core",
-        "scene": "SMS Scene"
-    },
     "SNES": {
         "description": "SNES Core",
         "scene": "SNES Scene",
@@ -768,6 +820,10 @@
     "TurboGrafx16": {
         "description": "TurboGrafx16 Core",
         "scene": "TurboGrafx16 Scene"
+    },
+    "VC4000": {
+        "description": "VC4000 core",
+        "scene": "VC4000 Scene"
     },
     "Vectrex": {
         "description": "Vectrex Core",
@@ -784,6 +840,10 @@
     "Chess": {
         "description": "Chess core",
         "scene": "Chess Scene"
+    },
+    "Chip8": {
+        "description": "Chip8 Core",
+        "scene": "Chip8 Scene"
     },
     "EpochGalaxyII": {
         "description": "EpochGalaxyII core",
@@ -812,6 +872,14 @@
     "memtest": {
         "description": "memtest core",
         "scene": "memtest Scene"
+    },
+    "GameboyColor": {
+        "description": "GameboyColor core",
+        "scene": "GameboyColor Scene"
+    },
+    "SG1000": {
+        "description": "SG1000 core",
+        "scene": "SG1000 Scene"
     },
     "NSF": {
         "description": "NSF Core",
