@@ -1,4 +1,4 @@
-# misterobs
+# MiSTerOBS
 Application to integrate MiSTer and OBS
 
 This app requires at least python 3+.
@@ -14,18 +14,20 @@ For OBS, you need to install obs-websocket which can be found here: https://gith
 
 Update **config.json** with your details:
 
-* mister_ip - ip address or hostname of MiSTer
-* mister_username - ssh username for MiSTer
-* mister_password - ssh password for MiSTer
-* change_scenes - enable/disable scene switching
-* debug - enable/disable debug logs
-* custom_text_sources - this is the format that will be used for the source text if you don' have one in the cores.json.
-* refresh_rate - polling rate of checking the core and game.
-* core_storage - where the cores are stored fat for sd card and usbX for usb 
-* pause_scenes - if one of these scenes are manually switched to, the script will skip changing scenes. Source text will still be updated for any scenes in the default conifg.
-* host - obs host
-* port - obs port
-* password - obs password
+|  Config | Example  | Details   |
+| ------------ | ------------ | ------------ |
+| mister_ip  | 192.168.1.34 or MiSTer   | ip address or hostname of MiSTer  |
+| mister_username  |  root  |  ssh username for MiSTer  |
+| mister_password  | 1  |  ssh password for MiSTer  |
+|  change_scenes |  true or false | enable/disable scene switching  |
+|  debug | true or false  | enable/disable debug logs  |
+|  custom_text_sources |  see json code below for example |  this is the format that will be used for the source text if you don' have one in the cores.json |
+| refresh_rate  |  1 |  polling rate of checking the core and game |
+| core_storage  | fat or usbx   |  where the cores are stored fat for sd card and usbX for usb |
+| pause_scenes  | see json code below for example  | if one of these scenes are manually switched to, the script will skip changing scenes. Source text will still be updated for any scenes in the default conifg  |
+| obs/host  |  localhost  | obs websocket host/ip address  |
+| obs/port  | 4444  |  obs websocket port |
+|  obs/password | password  | obs websocket password |
 
 ```json
 {
@@ -64,7 +66,7 @@ You can map the corename,scene name and supported filetypes in the cores.json fi
 ```json
 {
     "GBA": {   
-        "description": "GBA Core",
+        "description": "GBA Core", 
         "scene": "GBA Scene",
         "custom_text_sources": {             
             "GBA Game": "Playing {game} on {core}"
