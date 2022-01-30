@@ -37,3 +37,5 @@ exe = EXE(pyz,
 import shutil
 shutil.copyfile('cores.json', '{0}/cores.json'.format(DISTPATH))
 shutil.copyfile('config.json.template', '{0}/config.json'.format(DISTPATH))
+shutil.copyfile('database.json', '{0}/database.json'.format(DISTPATH))
+shutil.copyfile('folder_map.json', '{0}/folder_map.json'.format(DISTPATH))

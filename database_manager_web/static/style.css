@@ -1,0 +1,10 @@
+/* Styles go here */
+
+/* Column Filter row at top of table  */
+.datatable tfoot {
+  display: table-header-group;
+}
+
+.datatable tfoot .filter-column {
+  width: 100% !important;
+}

@@ -6,13 +6,15 @@
         "change_scenes":true,
         "debug":false,
         "custom_text_sources": {
-            "GameName": "Default:playing {game} on {core}"
+            "GameName": "playing {game} on {core}"
         },
         "refresh_rate": "1",
         "core_storage": "fat",
         "pause_scenes": [
             "Pause Scene"
-        ]
+        ],
+        "images_folder":"C:\\path\\to\\art",
+        "fuzzy_match_images":true
     },
     "obs": {
         "host": "localhost",

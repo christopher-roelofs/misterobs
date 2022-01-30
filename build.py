@@ -7,6 +7,11 @@ import PyInstaller.__main__
 import datetime
 import json
 
+try:
+    shutil.rmtree('dist')
+except Exception as e:
+    pass
+
 version = "0.0"
 
 if os.path.exists("version.json"):
@@ -14,7 +19,7 @@ if os.path.exists("version.json"):
         version_json = json.load(version_text)
         version = version_json['version']
 
-date = datetime.datetime.now().strftime("%d%m%Y")
+date = datetime.datetime.now().strftime("%Y%m%d")
 filename = os.path.join("release",f"MiSTerOBS_{version}_{date}")
 
 PyInstaller.__main__.run(['.\main.spec','--onefile','--clean'])

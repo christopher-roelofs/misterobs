@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.1.0/css/responsive.bootstrap.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.1/css/buttons.bootstrap.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="static/style.css" />
+</head>
+
+<body>
+    <button type="button" onclick="location.href='/new';" class="btn btn-primary mr-3">New</button>
+    <div class="container-fluuid">
+        <table class="datatable table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>Release Name</th>
+                    <th>Rom Name</th>
+                    <th>System</th>
+                    <th>Region</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>
+                        <input type="text" class="form-control input-sm filter-column">
+                    </th>
+                    <th>
+                        <input type="text" class="form-control input-sm filter-column">
+                    </th>
+                    <th>
+                        <select class="form-control input-sm filter-column">
+                            {% for system in systems %}
+                            <option value="{{ system }}">{{ system }}</option>
+                            {% endfor %}
+                        </select>
+                    </th>
+                    <th>
+                        <input type="text" class="form-control input-sm filter-column" />
+                    </th>
+                    <th>
+                    </th>
+                </tr>
+            </tfoot>
+            <tbody>
+                {% for item in data %}
+                <tr>
+                    <td>{{item["release_name"]}}</td>
+                    <td>{{item["rom_extensionless_file_name"]}}</td>
+                    <td>{{item["system"]}}</td>
+                    <td>{{item["region"]}}</td>
+                    <td>
+                        <form action="/view" method="post">
+                            <input type="hidden" name="uuid" value="{{item['uuid']}}">
+                            <center><button type="submit" class="btn btn-primary">Edit</button></center>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
+    <!-- Responsive extension -->
+    <script src="https://cdn.datatables.net/responsive/2.1.0/js/responsive.bootstrap.min.js"></script>
+    <!-- Buttons extension -->
+    <script src="//cdn.datatables.net/buttons/1.2.1/js/dataTables.buttons.min.js"></script>
+    <script src="//cdn.datatables.net/buttons/1.2.1/js/buttons.bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="//cdn.datatables.net/buttons/1.2.1/js/buttons.html5.min.js"></script>
+
+    <script src="static/script.js"></script>
+</body>
+
+</html>

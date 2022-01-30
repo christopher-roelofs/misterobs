@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+{%if 'message' in status %}
+
+<body onload="message()">
+    {% else %}
+
+    <body>
+        {% endif %}
+        <div class="container-fluuid needs-validation" novalidate>
+            <form id="form" action="/edit" method="post">
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Release Name</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" name="release_name" value="{{data['release_name']}}" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Region</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" name="region" value="{{data['region']}}">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">System</label>
+                    <div class="col-sm-10">
+                        <select class="form-control input-sm filter-column" name="system">
+                            {% for system in systems %}
+                            <option value="{{ system }}">{{ system }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">SHA1</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" name="sha1" value="{{data['sha1']}}">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Rom Extensionless File Name</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" name="rom_extensionless_file_name"
+                            value="{{data['rom_extensionless_file_name']}}" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Developer</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" name="developer" value="{{data['developer']}}">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Publisher</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" name="publisher" value="{{data['publisher']}}">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Genre</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" name="genre" value="{{data['genre']}}">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Date</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" name="date" value="{{data['date']}}">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Description</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" name="description" rows="3">{{data['description']}}</textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Reference URL</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" name="reference_url" value="{{data['reference_url']}}">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Manual URL</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" name="manual_url" value="{{data['manual_url']}}">
+                    </div>
+                </div>
+                <div class="btn-toolbar" style="justify-content: center; display: flex;">
+                    <button type="button" onclick="location.href='/';" class="btn btn-primary mr-3">Cancel</button>
+                    <button type="submit" class="btn btn-primary mr-3">Submit</button>
+                    <button type="button" onclick="myFunction()" id="duplicate-button"
+                        class="btn btn-primary mr-3">Duplicate</button>
+                        <button type="button" onclick="delete_rom()" id="delete-button"
+                        class="btn btn-primary mr-3">Delete</button>
+                </div>
+                <input type="hidden" id="duplicate" name="duplicate" value="false">
+                <input type="hidden" id="uuid" name="uuid" value="{{data['uuid']}}">
+            </form>
+        </div>
+
+        <script>
+            function myFunction() {
+                document.getElementById("duplicate").value = "true";
+                document.getElementById("form").submit();
+            }
+
+            function delete_rom() {
+                let deleteRom = confirm("Are you sure to delete this rom?");
+                if (deleteRom) {
+                form = document.getElementById("form");
+                form.action = "/delete"
+                form.submit();
+                }
+            }
+
+            function message() {
+                alert('{{status['message']}}');
+            }
+
+        </script>
+    </body>
+
+</html>

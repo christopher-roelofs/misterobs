@@ -5,7 +5,14 @@
     },
     "Arkanoid": {
         "description": "Arkanoid core",
-        "scene": "Arkanoid Scene"
+        "scene": "Arkanoid Scene",
+        "system": "Arcade",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "AsteroidsDeluxe": {
         "description": "AsteroidsDeluxe core",
@@ -137,7 +144,8 @@
     },
     "GAMEGEAR": {
         "description": "GAMEGEAR Core",
-        "scene": "GAMEGEAR Scene"
+        "scene": "GAMEGEAR Scene",
+        "system": "Sega Game Gear"
     },
     "Galaga": {
         "description": "Galaga core",
@@ -285,11 +293,13 @@
     },
     "SG-1000": {
         "description": "SG-1000 core",
-        "scene": "SG-1000 Scene"
+        "scene": "SG-1000 Scene",
+        "system": "Sega SG-1000"
     },
     "SMS": {
         "description": "SMS Core",
-        "scene": "SMS Scene"
+        "scene": "SMS Scene",
+        "system": "Sega Master System"
     },
     "ScooterShooter": {
         "description": "ScooterShooter core",
@@ -327,6 +337,10 @@
         "description": "Sprint2 core",
         "scene": "Sprint2 Scene"
     },
+    "Subs": {
+        "description": "Subs core",
+        "scene": "Subs Scene"
+    },
     "SuperBreakout": {
         "description": "SuperBreakout core",
         "scene": "SuperBreakout Scene"
@@ -349,7 +363,14 @@
     },
     "TraverseUSA": {
         "description": "TraverseUSA core",
-        "scene": "TraverseUSA Scene"
+        "scene": "TraverseUSA Scene",
+        "system": "Arcade",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "Ultratank": {
         "description": "Ultratank core",
@@ -403,17 +424,29 @@
         "description": "jtcontra core",
         "scene": "jtcontra Scene"
     },
+    "jtcop": {
+        "description": "jtcop core",
+        "scene": "jtcop Scene"
+    },
     "jtcps15": {
         "description": "jtcps15 core",
         "scene": "jtcps15 Scene"
     },
     "jtcps1": {
         "description": "jtcps1 core",
-        "scene": "jtcps1 Scene"
+        "scene": "jtcps1 Scene",
+        "system": "Arcade"
     },
     "jtcps2": {
         "description": "jtcps2 core",
-        "scene": "jtcps2 Scene"
+        "scene": "jtcps2 Scene",
+        "system": "Arcade",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "jtdd2": {
         "description": "jtdd2 core",
@@ -493,7 +526,22 @@
     },
     "jtsarms": {
         "description": "jtsarms core",
-        "scene": "jtsarms Scene"
+        "scene": "jtsarms Scene",
+        "system": "Arcade",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
+    },
+    "jtsbask1": {
+        "description": "jtsbask1 core",
+        "scene": "jtsbask1 Scene"
+    },
+    "jtsbaskt": {
+        "description": "jtsbaskt core",
+        "scene": "jtsbaskt Scene"
     },
     "jtsectionz": {
         "description": "jtsectionz core",
@@ -501,7 +549,14 @@
     },
     "jtsf": {
         "description": "jtsf core",
-        "scene": "jtsf Scene"
+        "scene": "jtsf Scene",
+        "system": "Arcade",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "jttora": {
         "description": "jttora core",
@@ -515,9 +570,17 @@
         "description": "jtvulgus core",
         "scene": "jtvulgus Scene"
     },
+    "jtyiear": {
+        "description": "jtyiear core",
+        "scene": "jtyiear Scene"
+    },
     "AcornAtom": {
         "description": "AcornAtom core",
         "scene": "AcornAtom Scene"
+    },
+    "AcornElectron": {
+        "description": "AcornElectron core",
+        "scene": "AcornElectron Scene"
     },
     "AliceMC10": {
         "description": "AliceMC10 core",
@@ -583,6 +646,10 @@
         "description": "CoCo2 core",
         "scene": "CoCo2 Scene"
     },
+    "CoCo3": {
+        "description": "CoCo3 core",
+        "scene": "CoCo3 Scene"
+    },
     "EDSAC": {
         "description": "EDSAC core",
         "scene": "EDSAC Scene"
@@ -605,7 +672,8 @@
     },
     "MSX": {
         "description": "MSX core",
-        "scene": "MSX Scene"
+        "scene": "MSX Scene",
+        "system": "MSX"
     },
     "MacPlus": {
         "description": "MacPlus core",
@@ -630,6 +698,10 @@
     "Oric": {
         "description": "Oric core",
         "scene": "Oric Scene"
+    },
+    "PC88": {
+        "description": "PC88 core",
+        "scene": "PC88 Scene"
     },
     "PDP1": {
         "description": "PDP1 core",
@@ -733,19 +805,23 @@
     },
     "Atari2600": {
         "description": "Atari2600 Core",
-        "scene": "Atari2600 Scene"
+        "scene": "Atari2600 Scene",
+        "system": "Atari 2600"
     },
     "Atari5200": {
         "description": "Atari5200 Core",
-        "scene": "Atari5200 Scene"
+        "scene": "Atari5200 Scene",
+        "system": "Atari 5200"
     },
     "Atari7800": {
         "description": "Atari7800 Core",
-        "scene": "Atari7800 Scene"
+        "scene": "Atari7800 Scene",
+        "system": "Atari 7800"
     },
     "AtariLynx": {
         "description": "AtariLynx Core",
-        "scene": "AtariLynx Scene"
+        "scene": "AtariLynx Scene",
+        "system": "Atari Lynx"
     },
     "ChannelF": {
         "description": "ChannelF core",
@@ -753,73 +829,147 @@
     },
     "ColecoVision": {
         "description": "ColecoVision Core",
-        "scene": "ColecoVision Scene"
+        "scene": "ColecoVision Scene",
+        "system": "Coleco ColecoVision"
     },
     "GBA2P": {
         "description": "GBA2P core",
-        "scene": "GBA2P Scene"
+        "scene": "GBA2P Scene",
+        "system": "Nintendo Game Boy Advance"
     },
     "GBA": {
         "description": "GBA Core",
         "scene": "GBA Scene",
+        "system": "Nintendo Game Boy Advance",
         "custom_text_sources": {
             "GBA Game": "Playing {game} on {core}"
+        },
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
         }
     },
     "GBC": {
         "description": "GBC Core",
-        "scene": "GBC Scene"
+        "scene": "GBC Scene",
+        "system": "Nintendo Game Boy Color",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "Gameboy2P": {
         "description": "Gameboy2P core",
-        "scene": "Gameboy2P Scene"
+        "scene": "Gameboy2P Scene",
+        "system": "Nintendo Game Boy"
     },
     "Gameboy": {
         "description": "GAMEBOY Core",
-        "scene": "GAMEBOY Scene"
+        "scene": "GAMEBOY Scene",
+        "system": "Nintendo Game Boy",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "Genesis": {
         "description": "Genesis Core",
-        "scene": "GENESIS Scene"
+        "scene": "GENESIS Scene",
+        "system": "Sega Genesis/Mega Drive",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "Intellivision": {
         "description": "Intellivision core",
-        "scene": "Intellivision Scene"
+        "scene": "Intellivision Scene",
+        "system": "Intellivision"
     },
     "MegaCD": {
         "description": "MegaCD Core",
-        "scene": "GENESIS Scene"
+        "scene": "GENESIS Scene",
+        "system": "Sega CD/Mega-CD",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "NES": {
         "description": "NES Core",
         "scene": "NES Scene",
         "display_name": "Nintendo Entertainment System",
+        "system": "Nintendo Entertainment System",
         "custom_text_sources": {
             "NES Game": "Playing {game} on {displayname}"
+        },
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
         }
     },
     "NeoGeo": {
         "description": "NEOGEO Core",
-        "scene": "NEOGEO Scene"
+        "scene": "NEOGEO Scene",
+        "system": "SNK Neo Geo",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "Odyssey2": {
         "description": "Odyssey2 Core",
-        "scene": "Odyssey2 Scene"
+        "scene": "Odyssey2 Scene",
+        "system": "Magnavox Odyssey2"
+    },
+    "PSX": {
+        "description": "PSX core",
+        "system": "Sony PlayStation",
+        "scene": "PSX Scene",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "SG-1000C": {
         "description": "SG-1000C core",
-        "scene": "SG-1000C Scene"
+        "scene": "SG-1000C Scene",
+        "system": "Sega SG-1000"
     },
     "SNES": {
         "description": "SNES Core",
         "scene": "SNES Scene",
+        "system": "Nintendo Super Nintendo Entertainment System",
         "custom_text_sources": {
             "SNES Game": "Playing {game} on {core}"
+        },
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
         }
     },
     "TurboGrafx16": {
         "description": "TurboGrafx16 Core",
-        "scene": "TurboGrafx16 Scene"
+        "scene": "TurboGrafx16 Scene",
+        "system": "NEC PC Engine/TurboGrafx-16"
     },
     "VC4000": {
         "description": "VC4000 core",
@@ -827,11 +977,13 @@
     },
     "Vectrex": {
         "description": "Vectrex Core",
-        "scene": "Vectrex Scene"
+        "scene": "Vectrex Scene",
+        "system": "GCE Vectrex"
     },
     "WonderSwan": {
         "description": "WonderSwan core",
-        "scene": "WonderSwan Scene"
+        "scene": "WonderSwan Scene",
+        "system": "Bandai WonderSwan"
     },
     "Arduboy": {
         "description": "Arduboy core",
@@ -875,11 +1027,19 @@
     },
     "GameboyColor": {
         "description": "GameboyColor core",
-        "scene": "GameboyColor Scene"
+        "scene": "GameboyColor Scene",
+        "system": "Nintendo Game Boy Color",
+        "custom_image_sources": {
+            "Boxart": "boxart",
+            "Snap": "snap",
+            "Title": "title",
+            "System": "system"
+        }
     },
     "SG1000": {
         "description": "SG1000 core",
-        "scene": "SG1000 Scene"
+        "scene": "SG1000 Scene",
+        "system": "Sega SG-1000"
     },
     "NSF": {
         "description": "NSF Core",
@@ -891,6 +1051,7 @@
     },
     "TGFX-CD": {
         "description": "TGFX-CD Core",
-        "scene": "TGFX-CD Scene"
+        "scene": "TGFX-CD Scene",
+        "system": "NEC PC Engine CD/TurboGrafx-CD"
     }
 }

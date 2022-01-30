@@ -18,6 +18,7 @@ def create_config():
     main["refresh_rate"] = "1"
     main["core_storage"] = "fat"
     main["pause_scenes"] = [ "Pause Scene" ]
+    main["images_folder"] = ""
     config["main"] = main
 
     obs = {}
@@ -46,4 +47,4 @@ def get_config():
 load_config()
 
 if __name__ == "__main__":
-    print(get_config())
+    print(json.dumps(get_config()))

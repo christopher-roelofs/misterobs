@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import json
+from urllib import request
 from obswebsocket import obsws, requests  # noqa: E402
 import logger
 import config
@@ -48,6 +49,16 @@ def is_in_scene_list(scene_name):
             return True
     return False
 
+def is_in_source_list(source_name):
+    sources = obs_call(requests.GetSourcesList())
+    for source in sources.getSources():
+        if source_name == source["name"]:
+            return True
+    return False
+
+def broadcast_message(realm,message):
+    requests.BroadcastCustomMessage(realm, { "message": message })
+    logger.event(f'Broadcasted message "{message}" to realm {realm}')
 
 def setSourceText(name, text):
     try:
@@ -59,6 +70,16 @@ def setSourceText(name, text):
     except Exception as e:
         logger.error("Unable to set source text for {}: {}".format(name, repr(e)))
 
+def setSourceImage(name,file):
+    try:
+        source_settings = obs_call(
+            requests.GetSourceSettings(name)).getSourceSettings()
+        logger.event('Changing source image of "{}" to "{}"'.format(name, file))
+        source_settings["file"] = file
+        obs_call(requests.SetSourceSettings(sourceName=name, sourceSettings=source_settings))
+    except Exception as e:
+        logger.error("Unable to set source image for {}: {}".format(name, repr(e)))
+
 
 def change_scene(name):
     try:
@@ -67,3 +88,5 @@ def change_scene(name):
     except Exception as e:
         logger.error("Unable to scene to {}: {}".format(name, repr(e)))
 
+if __name__ == "__main__":
+    setSourceImage("Image","")
