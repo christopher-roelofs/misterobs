@@ -1,8 +1,8 @@
 {
-    "boxart_folder":"Named_Boxarts",
-    "snap_folder":"Named_Snaps",
-    "title_folder":"Named_Titles",
-    "system_folder":"systems",
+    "boxart_folder": "Named_Boxarts",
+    "snap_folder": "Named_Snaps",
+    "title_folder": "Named_Titles",
+    "system_folder": "systems",
     "Atari 2600": "Atari_-_2600",
     "Atari 5200": "Atari_-_5200",
     "Atari 7800": "Atari_-_7800",
@@ -11,6 +11,7 @@
     "Bandai WonderSwan Color": "Bandai_-_WonderSwan_Color",
     "Coleco ColecoVision": "Coleco_-_ColecoVision",
     "GCE Vectrex": "GCE_-_Vectrex",
+    "Intellivision": "Mattel_-_Intellivision",
     "NEC PC Engine/TurboGrafx-16": "NEC_-_PC_Engine_-_TurboGrafx_16",
     "NEC PC Engine CD/TurboGrafx-CD": "NEC_-_PC_Engine_CD_-_TurboGrafx-CD",
     "NEC SuperGrafx": "NEC_-_PC_Engine_SuperGrafx",
@@ -29,6 +30,10 @@
     "SNK Neo Geo": "SNK_-_Neo_Geo",
     "SNK Neo Geo Pocket": "SNK_-_Neo_Geo_Pocket",
     "SNK Neo Geo Pocket Color": "SNK_-_Neo_Geo_Pocket_Color",
+    "Magnavox Odyssey2": "Magnavox_-_Odyssey2",
+    "Commodore 64": "Commodore_-_64",
+    "Microsoft MSX": "Microsoft_-_MSX",
+    "Microsoft MSX2": "Microsoft_-_MSX2",
     "Sony PlayStation": "Sony_-_PlayStation",
-    "Arcade":"Arcade"
+    "Arcade": "Arcade"
 }
